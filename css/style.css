@@ -1,0 +1,28 @@
+#navbar{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(151, 145, 145);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.main-section{
+  margin-left: 160px;
+}
+
+li a {
+  display: block;
+  width: 60px;
+}
+
+
+@media only screen and (max-width: 400px) {
+  #navbar ul {
+    /* background-color: rgb(221, 231, 235); */
+    border: 1px solid;
+    height: 207px;
+  }
+}
