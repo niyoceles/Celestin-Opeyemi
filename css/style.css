@@ -19,10 +19,11 @@ li a {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 100px) {
   #navbar ul {
     /* background-color: rgb(221, 231, 235); */
     border: 1px solid;
     height: 207px;
+    display: none;
   }
 }
